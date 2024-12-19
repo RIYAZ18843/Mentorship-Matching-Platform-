@@ -1,0 +1,71 @@
+/* App.css */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Router-related styles */
+  .router-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  nav {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Page Component Styles */
+  .home {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .home h1 {
+    color: #333;
+    font-size: 3em;
+  }
+  
+  .about {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about h1 {
+    color: #555;
+    font-size: 2.5em;
+  }
+  
+  .contact {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contact h1 {
+    color: #777;
+    font-size: 2.5em;
+  }
+  
